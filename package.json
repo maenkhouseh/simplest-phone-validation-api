@@ -1,0 +1,30 @@
+{
+  "name": "simplest-phone-validation",
+  "version": "1.0.0",
+  "description": "Simplest phone validation express.js API that can give realistic results using google libphonenumber lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maenkhouseh/simplest-phone-validation-api.git"
+  },
+  "keywords": [
+    "simple",
+    "phone",
+    "validation",
+    "google",
+    "libphonenumber"
+  ],
+  "author": "Dr. Maen K Househ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maenkhouseh/simplest-phone-validation-api/issues"
+  },
+  "homepage": "https://github.com/maenkhouseh/simplest-phone-validation-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "google-libphonenumber": "^3.2.31"
+  }
+}
